@@ -9,7 +9,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
-	"projectname": "MP-FMC-v2",
+	"projectname": "Chifan-MP",
+	"appid": "wx6545a117799ef0b5",
 	"condition": {
 		"search": {
 			"current": -1,

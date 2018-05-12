@@ -2,18 +2,29 @@
 //获取应用实例
 const app = getApp()
 
+const mock = require('./mock')
 
 
 Page({
   data: {
     items: []
   },
+  showRestaurant(e) {
+    const data = e.currentTarget.dataset;
+    const restaurant = data.restaurant;
+
+    wx.navigateTo({
+      url: `/show/show?id=${restaurant.id}`
+    });
+  },
   onLoad: function () {
     
-    // Fetch Items from GlobalData
+   
     this.setData({
-      items: app.globalData.items
+      restaurants: mock.default.restaurants
     })
+
+
     
 
   }
