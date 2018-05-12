@@ -1,12 +1,14 @@
-# MP-FMC-V2
-Wechat Mini-program : FuckMyCode
-Version: 2
+# ChiFan-MP-V1
+Wechat Mini-program : ChiFan Mini-program
+Version: 1
 
 
 WX:for with card
 
 
-![LandingPage](https://github.com/pitipon/MP-FMC-V1/blob/master/screenshot/Screen%20Shot%202018-04-23%20at%2014.57.01.png)
+![LandingPage](https://github.com/pitipon/Chifan-MP/blob/master/screenshot/Screen%20Shot%202018-05-12%20at%2022.26.51.png)
 
 
-![IndexPage](https://github.com/pitipon/MP-FMC-V2/blob/master/screenshot/Screen%20Shot%202018-04-23%20at%2015.30.22.png)
+![IndexPage](https://github.com/pitipon/Chifan-MP/blob/master/screenshot/Screen%20Shot%202018-05-12%20at%2022.27.08.png)
+
+![Detail](https://github.com/pitipon/Chifan-MP/blob/master/screenshot/Screen%20Shot%202018-05-12%20at%2022.27.24.png)
