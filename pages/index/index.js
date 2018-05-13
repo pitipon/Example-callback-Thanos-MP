@@ -11,7 +11,7 @@ Page({
     
   },
   takePhoto: function() {
-    console.log("take photo")
+    
     wx.chooseImage({
       count: 1, 
       sizeType: ['original'], 
