@@ -8,3 +8,9 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+.screen {
+  min-height: 105vh;
+  max-height: 100%;
+  background: #050D30; 
+}

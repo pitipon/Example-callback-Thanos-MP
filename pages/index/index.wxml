@@ -1,30 +1,15 @@
 <!--index.wxml-->
-<view class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.2) 0%, rgba(0,36,61,0.3) 50%), url('/assets/images/salmon.jpg');">
-    <view class="banner-content">
-      <view class='title'>吃饭</view>
-      <text class='teaser'>Chifan</text>
-      
-    </view>
+
+<view class="screen">
+
+
+
+<view class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.2) 0%, rgba(0,36,61,0.3) 50%);">
+  <view class="banner-content">
+    <view class='title'>Take Picture</view>
+    <text class='teaser'>Change Profile picture</text>
+    
   </view>
+</view>
 
-<block wx:for="{{restaurants}}" wx:for-item="restaurant" wx:for-index="index" wx:key="restaurant.id">
-
-  <view  bindtap="showRestaurant" data-restaurant="{{restaurant}}" class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('{{restaurant.image}}');">
-      <view class="card-category">
-        {{restaurant.address}}
-      </view>
-
-      <view class="card-description">
-
-        <view class="name">
-          {{restaurant.name}}
-        </view>
-
-        <view class="tag">
-          {{restaurant.tag}}
-        </view>
-
-      </view>
-      
-  </view>
-</block>
+</view>
